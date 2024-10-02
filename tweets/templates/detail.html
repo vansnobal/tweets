@@ -1,0 +1,8 @@
+{% if not not_found %}
+<h3>{{tweet.payload}}</h3>
+<p>{{tweet.user}}</p>
+<p>{{tweet.created_at}}</p>
+<p>{{tweet.updated_at}}</p>
+{% else %}
+<h3>404 not found</h3>
+{% endif %}
